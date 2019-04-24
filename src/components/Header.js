@@ -1,10 +1,22 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 
 const Header = () => (
   <header>
-    <p>header</p>
+    <Nav
+      className="justify-content-center"
+      activeKey="/home"
+    >
+      <Nav.Item>
+        <Nav.Link href="/">Home</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="/page1">Page 1</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="/page2">Page 2</Nav.Link>
+      </Nav.Item>
+    </Nav>
   </header>
 )
 

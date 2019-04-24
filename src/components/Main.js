@@ -5,7 +5,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 
 const Main = () => (
-  <main>
+  <main className="container">
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/page1' component={Page1}/>
