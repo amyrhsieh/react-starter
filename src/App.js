@@ -1,14 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+// import 'normalize.css';
+//
+// import "styles/base/_main.scss";
+// import "styles/base/_common.scss";
+// import "styles/base/_reset.scss";
+// import styles from "./app.scss";
 
-console.log("hello world");
+const App = () => (
+  <React.Fragment>
+    <Header />
+    <Main />
+    <Footer />
+  </React.Fragment>
+);
 
-const App = () => {
-  return (
-    <div>
-      <p>React here!</p>
-    </div>
-  );
-};
 export default App;
-ReactDOM.render(<App />, document.getElementById("app"));
