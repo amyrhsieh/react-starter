@@ -1,5 +1,7 @@
 import App from "./App";
 
+import style from "./main.css";
+
 console.log(`Entry point`);
 
 const arr = [1, 2, 3];
