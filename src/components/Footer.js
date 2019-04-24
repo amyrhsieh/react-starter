@@ -1,8 +1,12 @@
 import React from 'react';
 
+import styles from "./footer.scss";
+
 const Footer = () => (
-  <footer>
-    <p>footer</p>
+  <footer className="footer">
+    <div className="container">
+      <span className="text-muted">Place sticky footer content here.</span>
+    </div>
   </footer>
 );
 
