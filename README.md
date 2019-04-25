@@ -20,7 +20,7 @@ Includes:
 ## Build and deploy
 Run the prod_deploy.sh script: `sh prod_deploy.sh`
 
-##Resources
+## Resources
 - https://www.valentinog.com/blog/webpack/
 - https://webpack.js.org/
 - https://github.com/webpack-contrib/mini-css-extract-plugin
