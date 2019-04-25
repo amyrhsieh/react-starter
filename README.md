@@ -3,10 +3,10 @@ Based on [Webpack 4 tutorial](https://www.valentinog.com/blog/webpack/). <-- man
 Valentino Gagliardi for this, great tutorial.
 
 Includes:
-- React
-- Webpack
+- React (v16+)
+- Webpack (v4+)
 - SCSS
-- Basic nav
+- Basic nav with react router (v5+)
 - React Bootstrap
 - Deployment to S3 (compiled assets)
 
@@ -19,3 +19,8 @@ Includes:
 
 ## Build and deploy
 Run the prod_deploy.sh script: `sh prod_deploy.sh`
+
+##Resources
+- https://www.valentinog.com/blog/webpack/
+- https://webpack.js.org/
+- https://github.com/webpack-contrib/mini-css-extract-plugin

@@ -34,19 +34,18 @@ module.exports = (env, options) => {
           ]
         },
         {
-          test: /\.css$/,
-          use: [MiniCssExtractPlugin.loader, "css-loader"]
+          test: /\.(sa|sc|c)ss$/,
+          use: [
+            {
+              loader: MiniCssExtractPlugin.loader,
+              options: {
+                hmr: options.mode === 'development',
+              },
+            },
+            'css-loader',
+            'sass-loader',
+          ],
         },
-        {
-          test: /\.scss$/,
-          use: [{
-            loader: "style-loader"
-          }, {
-            loader: "css-loader"
-          }, {
-            loader: "sass-loader"
-          }]
-        }
       ]
     },
     plugins: [
