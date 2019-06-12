@@ -16,6 +16,7 @@ Includes:
 
 ## Setup
 - S3: Create a file in root directory called `s3bucketname`, with the s3 bucket name for deployment (content should be just a single string). This file will be gitignored.
+- Please use `yarn` (not `npm`) to manage packages.
 
 ## Build and deploy
 Run the prod_deploy.sh script: `sh prod_deploy.sh`
