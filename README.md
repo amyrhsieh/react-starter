@@ -9,6 +9,7 @@ Includes:
 - Basic nav with react router (v5+)
 - React Bootstrap
 - Deployment to S3 (compiled assets)
+- Yarn
 
 ## Prerequisites
 - Node, npm
